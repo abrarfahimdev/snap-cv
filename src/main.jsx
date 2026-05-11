@@ -16,6 +16,7 @@ import Home from './pages/Home'
 import BuildResume from './pages/BuildResume'
 import ViewResume from './pages/ViewResume'
 import CoverLetter from './pages/CoverLetter'
+import ViewCoverLetter from './pages/ViewCoverLetter'
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,7 @@ const router = createBrowserRouter([
       { path: '/build-resume', element: <BuildResume /> },
       { path: '/resume/:id', element: <ViewResume /> },
       { path: '/cover-letter', element: <CoverLetter /> },
+      { path: '/cover-letter/:id', element: <ViewCoverLetter /> },
     ]
   }
 ])
