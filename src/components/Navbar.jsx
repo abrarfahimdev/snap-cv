@@ -37,6 +37,9 @@ const Navbar = () => {
           <Link to="/#how" className="text-gray-500 hover:text-rose-500 font-medium px-4 py-2 rounded-lg hover:bg-rose-50 transition-all text-sm">
             How It Works
           </Link>
+          <Link to="/resume-score" className="text-gray-500 hover:text-rose-500 font-medium px-4 py-2 rounded-lg hover:bg-rose-50 transition-all text-sm">
+  Resume Score
+</Link>
         </div>
 
         {/* Auth Buttons */}

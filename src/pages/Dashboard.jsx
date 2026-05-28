@@ -160,8 +160,7 @@ const Dashboard = () => {
               {[
                 { icon: '✨', title: 'Build New Resume', desc: 'Create a professional resume with AI', color: 'hover:border-rose-300', action: () => navigate('/build-resume') },
                 { icon: '💌', title: 'Write Cover Letter', desc: 'Generate a tailored cover letter', color: 'hover:border-blue-300', action: () => setActiveTab('cover-letters') },
-                { icon: '👤', title: 'Edit Profile', desc: 'Update your personal information', color: 'hover:border-green-300', action: () => setActiveTab('profile') },
-              ].map((action, i) => (
+{ icon: '👤', title: 'Edit Profile', desc: 'Update your personal information', color: 'hover:border-green-300', action: () => setActiveTab('profile') },              ].map((action, i) => (
                 <button
                   key={i}
                   onClick={action.action}
